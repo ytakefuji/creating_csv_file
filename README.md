@@ -83,7 +83,7 @@ see python-novice.
 <pre>
 $ python scorecovid.py
 ...
-score is created in result.csv
+score was created in result.csv as of June 11, 2021.
            country  deaths  population  score
 4      New Zealand      26           4      6
 5           Taiwan     385          23     16
