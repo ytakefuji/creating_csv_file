@@ -1,4 +1,6 @@
 # creating_csv_file for data science
+This repository shows how to create csv files by scraping web sites 
+and downloading csv files.
 <pre>
 pandas DataFrame library can be used for creating a csv file.
 
