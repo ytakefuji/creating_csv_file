@@ -79,9 +79,10 @@ Hint:
 
 see python-novice.
  
-# python scorecovid.py
+# Scoring of covid-19 policies by scorecovid.py
 <pre>
-
+$ python scorecovid.py
+...
 score is created in result.csv
            country  deaths  population  score
 4      New Zealand      26           4      6
