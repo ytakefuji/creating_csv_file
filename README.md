@@ -79,4 +79,21 @@ Hint:
 
 see python-novice.
  
- 
+# python scorecovid.py
+<pre>
+
+score is created in result.csv
+           country  deaths  population  score
+4      New Zealand      26           4      6
+5           Taiwan     385          23     16
+0      South Korea    1982          51     38
+7            Japan   13936         126    110
+1            India  363079        1380    263
+9           Canada   25863          37    699
+11          Israel    6428           8    803
+6           Sweden   14574          10   1457
+3           France  110506          65   1700
+8    United States  599180         331   1810
+10  United Kingdom  128148          67   1912
+2           Brazil  484235         212   2284
+</pre>
