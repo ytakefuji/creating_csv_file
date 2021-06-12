@@ -2,7 +2,7 @@
 <pre>
 pandas DataFrame library can be used for creating a csv file.
 
-The first goal is to creat a csv template:
+The first goal is to creat a csv template for scoring individual policies:
            country  deaths  population  score
 0      South Korea       0           0      0
 1            India       1           1      1
