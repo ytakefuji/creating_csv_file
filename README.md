@@ -2,7 +2,8 @@
 <pre>
 pandas DataFrame library can be used for creating a csv file.
 
-The first goal is to creat a csv template for scoring individual policies:
+The first goal is to creat a csv template for scoring individual 
+policies:
            country  deaths  population  score
 0      South Korea       0           0      0
 1            India       1           1      1
@@ -19,7 +20,8 @@ The first goal is to creat a csv template for scoring individual policies:
 </pre>
 
 csv files can be created by pandas DataFrame. 
-The csv file contains 4 columns including country, deaths, population, and score.
+The csv file contains 4 columns including country, deaths, 
+population, and score.
 <pre>
 
 import pandas as pd
@@ -32,12 +34,14 @@ dd=pd.DataFrame(
  
  d is a list of country names.
  
- In order to make d (a list of countries), countries file is needed.
+ In order to make d (a list of countries), countries file 
+ is needed.
  
  d=open('countries').read().strip()
  print(d)
  
- South Korea,India,Brazil,France,New Zealand,Taiwan,Sweden,Japan,United States,Canada,United Kingdom,Israel
+ South Korea,India,Brazil,France,New Zealand,Taiwan,Sweden,
+ Japan,United States,Canada,United Kingdom,Israel
 </pre>
 
 # Generate a pop.csv file with the populations of all countries.
@@ -62,7 +66,8 @@ Hint:
 # Calculate score of the countries.
 
 Hint:
-scoring individual policies can be calculated by dividing the total number of deaths by a population.
+scoring individual policies can be calculated by dividing 
+the total number of deaths by a population.
 
 score=total deaths/population (million)
 
